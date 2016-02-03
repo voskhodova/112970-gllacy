@@ -2,11 +2,68 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
+    <title>Глейси: магазин мороженого собственного производства</title>
   </head>
   <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="index-logo">
+          <img src="img/index-logo.png" width="100" height="50" alt="Глейси">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li class="menu-block"><a href="#" class="map0">Каталог</a>
+              <ul class="menu-block-bottom">
+                <li class="menu-block-bottom-center"><a href="#" class="map1">Новинки</a>
+                  <ul class="menu-block-bottom-center-sub">
+                    <li><a href="#" class="map2">Сливочное</a></li>
+                    <li><a href="#" class="map2">Щербеты</a></li>
+                    <li><a href="#" class="map2">Фруктовый лёд</a></li>
+                    <li><a href="#" class="map2">Мелорин</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Доставка</a>
+            </li>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <form name="auth" method="post" action="#">
+		          <input type="text" required name="login" placeholder="Электронная почта">
+			           <br>
+		          <input type="password" required name="pass" placeholder="Пароль">
+			           <br>
+		          <a href="#" class="form-link">Забыли пароль?</a>
+			           <br>
+		          <a href="#" class="form-link">Новая регистрация</a>
+		          <input type="submit" value="Войти" name="authsubmit" class="button" id="loginButton">
+		          <input type="hidden" value="my/" name="redirect">
+	        </form>
+        </div>
+        <div class="search">
+          <form method="post" action="#">
+            <input type="text" id="input" name="search" value="" placeholder="Что ищем?" />
+            <input type="submit" id="button" value=" " />
+          </form>
+        </div>
+        /*Корзину не поняла как делать. Тоже форма? */
+        <div class="basket">
+          <a href="#"></a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive">Базовый HTML и CSS</a>».</p>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
 
+      </div>
+    </footer>
   </body>
 </html>
